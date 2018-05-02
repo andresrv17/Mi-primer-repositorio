@@ -85,6 +85,8 @@ int main(){
 	cout<<"Ingrese el vector de Existentes(digito a digito)."<<endl;
 	vector<int> ve(n);//Vector de existentes
 	vector<int> sum(n,0);//vector que va llevando la suma de asignados por recurso
+	int andres=1000;
+	int holi="este es un string"
 	for(int i=0;i<n;i++){
 		cin>>ve[i];//ingreso vector de existentes
 	}
